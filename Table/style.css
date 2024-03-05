@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    font-size: 2em;
+    border-radius: 5px;
+}
+
+.activeBtn {
+    background-color: greenyellow;
+}
+
+.inactiveBtn {
+    background-color: gainsboro;
+}
+
+table, td, th {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+th {
+    background-color: greenyellow;
+}
+
+tr:nth-child(even) {
+    background-color: gainsboro;
+  }

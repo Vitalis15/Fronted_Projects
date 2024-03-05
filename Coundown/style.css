@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    text-align: center;
+}
+
+#countDown {
+    font-size: 300px;
+    color: aqua;
+}
+
+#btnStart {
+    font-size: 50px;
+    background: lightblue;
+    border-radius: 20px;
+    padding: 10px;
+    border: darkblue 2px solid;
+}

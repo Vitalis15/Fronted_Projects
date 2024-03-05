@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Lab 08</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-div">
+            <h1>Interact with these...</h1>
+            <button type="button" onclick = "Time()">What's the time?</button>
+            <h2 onmouseover = "showDay()" >Hover over me to display the day of the week!</h2>
+            <h3 onclick = " Click()">Double-click me to see how many times I have been double-clicked!</h3>
+			<label>Calculate the sum of the first </label><input type="number" id="sumNum"><label> numbers</label>
+            <button type="button" onclick="Sum()">Calculate!</button>
+        </div>
+        <div class="right-div">
+            <h1>... and get results here</h1>
+            <div id="resultDiv">Results will be displayed here!</div>
+        </div>
+    </div>
+</body>
+
+</html>

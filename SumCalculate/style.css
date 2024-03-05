@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left-div, .right-div {
+    flex-basis: 40%;
+    padding: 20px;
+}
+
+.left-div {
+    background-color: lightgoldenrodyellow;
+}
+
+.right-div {
+    background-color: lightgreen;
+}
+
+button {
+    font-size: 2em;
+}
+
+#resultDiv {
+    background-color: limegreen;
+    font-size: 2em;
+    padding: 10px;
+}

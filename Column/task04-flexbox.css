@@ -1,0 +1,58 @@
+.three-col {
+    margin: 20px auto 0 auto;
+}
+
+.col-1, .col-2, .col-3 {
+    padding: 20px;
+}
+
+.col-1 {
+    background-color: lightpink;
+}
+
+.col-2 {
+    background-color: lightgreen;
+}
+
+.col-3 {
+    background-color: aquamarine;
+}
+@media (min-width: 1500px) {
+    .three-col {
+        display: flex;
+    }
+    .col-2{
+        display: flex;
+    }
+    .col-2, .col-3 {
+        flex-basis: 20%;
+    } 
+    .col-1 {
+        flex-basis: 60%;
+    }
+    .three-col div {
+    width: 100%;
+  }
+  .two div {
+    width: 100%;
+    flex-basis: 50%;
+  }
+}
+@media (min-width: 900px) and (max-width: 1500px) {
+    .three-col {
+      display: block;
+    }
+    .two {
+      display: flex;
+    }
+    .col-2, .col-3 {
+      flex-basis: 50%;
+      width: 30%;
+    }
+  }
+  
+  @media (max-width: 900px) {
+      .three-col {
+          display: block;
+      }
+  }

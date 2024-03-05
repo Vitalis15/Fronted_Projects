@@ -1,0 +1,63 @@
+h1{
+    font-family: Arial,Helvetica;
+    color:RGB(75,75,75)
+    text-transform uppercase;
+}
+p{
+    color:gray;
+    font: size 1.2em;
+}
+p.para{
+    font-family: italic;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+#big-blue-border{
+    border-style: solid;
+    border-color:blue;
+    border-width:10px;
+    background-color:orange ;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:50px;
+    padding-right:50px;
+    
+}
+.myFirstPara{
+    color:green;
+    font-size: 2em;
+}
+.mySecondPara{
+    background-color: white;
+    text-decoration: none;
+}
+.div1{
+    height: 100px;
+    width:100px;
+    background-color: yellow;
+    position:fixed;
+    top:10px;
+    left:0px;
+    cursor: pointer;
+}
+.div2{
+    width:50%;
+    height:10em;
+    background-color: pink;
+    position:fixed;
+    right:200px;
+    cursor:progress;
+}
+.div3{
+    background-color: powderblue;
+    width:10rem;
+    height:10rem;
+    position:fixed;
+    top:500px;
+    left:20%;
+    cursor:help;
+}
+
